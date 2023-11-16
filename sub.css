@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color: grey;
+}
+
+.container{
+width: 80%;
+margin: 0 auto;
+}
+header::after{
+    content:'' ;
+    display: table;
+    clear: both;
+}
+
+
+nav{
+    float: right;
+}
+nav a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+.logo{
+    width: 1%;
+}
+nav a:hover {
+    color: blue;
+
+
+}
